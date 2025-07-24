@@ -49,7 +49,7 @@ namespace MathGame
                     Console.Write("Enter 2nd number (integer): ");
                     bool isSecondNumberValid;
                     int secondNumber;
-                    while ((isFirstNumberValid = int.TryParse(Console.ReadLine(), out secondNumber)) == false)
+                    while ((isSecondNumberValid = int.TryParse(Console.ReadLine(), out secondNumber)) == false)
                     {
                         Console.WriteLine("Please enter a valid integer!");
                         Console.Write("Enter 2nd number (integer): ");
